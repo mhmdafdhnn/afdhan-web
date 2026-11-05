@@ -5,56 +5,142 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AFDHANN WEB</title>
 <style>
-*{box-sizing:border-box}
-body{margin:0;background:#081426;color:white;font-family:Arial,sans-serif}
-header{text-align:center;padding:55px 20px;background:#102b50}
-header h1{color:#42a5ff;font-size:36px}
-header p{color:#ccd8e8}
-section{padding:25px 20px;max-width:850px;margin:auto}
-h2{color:#42a5ff}
-.card{background:#142943;padding:20px;border-radius:14px;margin:15px 0}
-img{max-width:100%;border-radius:12px}
-.profile{width:140px;height:140px;object-fit:cover;border-radius:50%}
-a{color:#42a5ff}
-.wa{display:inline-block;background:#168b54;color:white;padding:13px 20px;border-radius:10px;text-decoration:none}
-footer{text-align:center;padding:25px;color:#9aacc2}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #081426;
+  color: white;
+  font-family: Arial, sans-serif;
+  line-height: 1.7;
+}
+header {
+  background: linear-gradient(135deg,#102b50,#0756a5);
+  text-align: center;
+  padding: 65px 20px;
+}
+header h1 {
+  font-size: 38px;
+  color: #42a5ff;
+}
+header p {
+  margin-top: 10px;
+}
+section {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px 20px;
+}
+h2 {
+  color: #42a5ff;
+  margin-bottom: 15px;
+}
+.profile {
+  width: 145px;
+  height: 145px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #42a5ff;
+}
+.intro {
+  text-align: center;
+}
+.card {
+  background: #142943;
+  padding: 22px;
+  border-radius: 14px;
+  margin: 15px 0;
+  border: 1px solid #244568;
+}
+.card h3 {
+  color: #42a5ff;
+}
+.portfolio-img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.button {
+  display: inline-block;
+  background: #168b54;
+  color: white;
+  padding: 12px 22px;
+  border-radius: 10px;
+  text-decoration: none;
+  margin-top: 12px;
+}
+footer {
+  text-align: center;
+  padding: 25px;
+  background: #050d19;
+  color: #9aacc2;
+}
 </style>
 </head>
+
 <body>
+
 <header>
-<h1>AFDHANN WEB</h1>
-<p>Creative Design & Document Services</p>
+  <h1>AFDHANN WEB</h1>
+  <p>Creative Design & Document Services</p>
 </header>
 
-<section style="text-align:center">
-<img src="afdhan.jpg" class="profile" alt="Foto Afdhan">
-<h2>Halo, Saya Afdhan!</h2>
-<p>Pelajar jurusan Teknik Komputer dan Jaringan yang tertarik pada desain kreatif dan teknologi.</p>
+<section class="intro">
+  <img src="afdhan.jpg" class="profile" alt="Foto Afdhan">
+  <h2>Halo, Saya Afdhan!</h2>
+  <p>Selamat datang di website portofolio saya.</p>
 </section>
 
 <section>
-<h2>Tentang Saya</h2>
-<div class="card">
-Saya adalah siswa jurusan TKJ yang memiliki minat dalam desain grafis, pembuatan logo, serta pengolahan dokumen menggunakan Microsoft Word.
-</div>
+  <h2>Tentang Saya</h2>
+  <div class="card">
+    Saya Afdhan, siswa SMK jurusan Teknik Komputer dan Jaringan (TKJ).
+    Saya memiliki minat dalam bidang desain grafis, teknologi,
+    dan pengolahan dokumen digital.
+  </div>
 
-<h2>Layanan Saya</h2>
-<div class="card"><h3>Poster Design</h3><p>Desain poster untuk acara dan promosi.</p></div>
-<div class="card"><h3>Logo Design</h3><p>Pembuatan logo sederhana dan menarik.</p></div>
-<div class="card"><h3>Microsoft Word</h3><p>Pengetikan dan perapian dokumen.</p></div>
+  <h2>Layanan Saya</h2>
+  <div class="card">
+    <h3>Poster Design</h3>
+    <p>Membuat desain poster untuk acara dan promosi.</p>
+  </div>
+  <div class="card">
+    <h3>Logo Design</h3>
+    <p>Membuat logo kreatif untuk organisasi dan usaha.</p>
+  </div>
+  <div class="card">
+    <h3>Microsoft Word</h3>
+    <p>Pengetikan, perapian, dan pengaturan dokumen.</p>
+  </div>
 
-<h2>Portofolio</h2>
-<div class="card"><h3>Poster</h3><img src="poster1.jpg" alt="Contoh poster"></div>
-<div class="card"><h3>Logo</h3><img src="logo1.jpg" alt="Contoh logo"></div>
-<div class="card"><h3>Dokumen Word</h3><img src="word1.jpg" alt="Contoh dokumen"></div>
+  <h2>Portofolio</h2>
+  <div class="card">
+    <h3>Desain Poster</h3>
+    <img src="poster1.jpg" class="portfolio-img" alt="Contoh poster">
+  </div>
+  <div class="card">
+    <h3>Desain Logo</h3>
+    <img src="logo1.jpg" class="portfolio-img" alt="Contoh logo">
+  </div>
+  <div class="card">
+    <h3>Microsoft Word</h3>
+    <img src="word1.jpg" class="portfolio-img" alt="Contoh dokumen">
+  </div>
 
-<h2>Hubungi Saya</h2>
-<div class="card">
-<p>Tertarik bekerja sama? Hubungi saya melalui WhatsApp.</p>
-<a class="wa" href="https://wa.me/628XXXXXXXXXX">Hubungi WhatsApp</a>
-</div>
+  <h2>Hubungi Saya</h2>
+  <div class="card">
+    <p>Tertarik bekerja sama? Hubungi saya melalui WhatsApp.</p>
+    <a class="button" href="https://wa.me/628XXXXXXXXXX">
+      Hubungi WhatsApp
+    </a>
+  </div>
 </section>
 
-<footer>© 2026 AFDHANN WEB</footer>
+<footer>
+  © 2026 AFDHANN WEB | All Rights Reserved
+</footer>
+
 </body>
 </html>
